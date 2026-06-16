@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PMB cuy university</title>
+    <!-- tag ini digunakan untuk menghias tampilan html
+     bisa juga di link dengan file css sendiri dengan <link rel="stylesheet" href="[namafile].css"> -->
     <style>
         body{
-            background-color: ;
+            
         }
         fieldset{
             border: 1px solid black;
@@ -30,6 +32,16 @@
             gap: 10px;
         }
 
+        textarea{
+            width: 99%;
+            padding: 10px;
+            margin: 5px 0;
+            display: flex;
+            border: 1px solid black;
+            border-radius: 5px;
+            resize: none;
+        }
+
         input[type="text"], input[type="email"]{
             padding: 10px;
             margin: 5px 0;
@@ -50,7 +62,7 @@
 
 <body>
 
-    <!-- Judul -->
+    <!-- Judul/Header -->
 <div class="header-container">
     <img src="stitek.jpg" alt="Logo STITEK">
     <h1>Formulir Pendaftaran Mahasiswa</h1>
@@ -66,11 +78,17 @@
             <label for="nama">Email</label>
             <input type="email" id="email" name="email" required placeholder="John@gmail.com">
             <br>
+            <label for="alamat">Alamat</label>
+            <br>
+            <textarea placeholder="jl.kecubung 1"></textarea>
+            <br>
             <label for="JK">Jenis Kelamin</label>
             <input type="radio">Laki-laki
             <input type="radio">Perempuan
             <br>
         </fieldset>
+
+        <!-- fieldset 2 -->
         <fieldset class="data-mhs">
             <legend>Data Mahasiswa</legend>
             <label for="hobi">Hobi</label>
