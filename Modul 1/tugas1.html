@@ -57,6 +57,36 @@
             border-radius: 5px;
             width: 99%;
         }
+
+        input[type="checkbox"]{
+            margin: 5px 0;
+            display: flex;
+            border: 1px solid black;
+            border-radius: 5px;
+            width: 99%;
+        }
+
+        select{
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button[type="submit"]{
+            padding: 10px;
+            border-radius: 5px;
+            width: 100p;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        video{
+            display: block;
+            align-self: center;
+            margin: 0 auto;
+        }
     </style>
 </head>
 
@@ -97,16 +127,24 @@
             <input type="checkbox" id="hobi">Menulis
             <br>
 
-            <label for="jurusan">Jurusan</label>
+            <label for="jurusan">Jurusan</label><br>
             <select id="jurusan" name="jurusan">
                 <option value="TI">Teknik Informatika</option>
                 <option value="SI">Sistem Informasi</option>
                 <option value="EL">Teknik Elektro</option>
                 <option value="ME">Manajemen</option>
                 </option>
-            </select>
+            </select><br>
+
+            <button type="submit">Kirim</button>
         </fieldset>             
-        <button type="submit">Kirim</button>
     </form>
+
+    <h1>Tentang Stitek</h1>
+    <p>Lorem Ipsum Dolor Amet Lorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor AmetLorem Ipsum Dolor Amet</p>
+
+    <video width="500" height="300" controls>
+        <source src="videostitek.mp4">
+    </video>
 </body>
 </html>
