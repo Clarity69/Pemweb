@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #2196F3;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 4vw;
+            text-align: center;
+            margin-bottom: 5px;
+            color: white;
+        }
+
+        h2 {
+            font-size: 2.5vw;
+            text-align: center;
+            font-weight: normal;
+            margin-top: 0;
+            color: white;
+        }
+
+        p {
+            font-size: 1.5vw;
+            text-align: center;
+            color: white;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 10px;
+        }
+
+        .grid-item {
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 2px solid white;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: #e74c3c;
+            }
+
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 16px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>SEKOLAH TINGGI TEKNOLOGI BONTANG</h1>
+    <h2>PROGRAM STUDI TEKNIK INFORMATIKA</h2>
+    <p>Praktikum: Pemrograman Web | Modul 2: Pengenalan CSS</p>
+    <p><small>Tgl Update: 02-06-2025 Revisi 01</small></p>
+
+    <div class="grid-container">
+        <div class="grid-item">Item 1</div>
+        <div class="grid-item">Item 2</div>
+        <div class="grid-item">Item 3</div>
+    </div>
+
+</body>
+
+</html>
